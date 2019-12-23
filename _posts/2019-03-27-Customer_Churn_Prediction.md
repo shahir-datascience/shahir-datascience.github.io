@@ -6,9 +6,9 @@ excerpt: "data wrangling, data science, data analysis, machine learning"
 mathjax: "true"
 ---
 
-# CUSTOMER CHURN PREDICTION IN A TELECOMMUNICATIONS COMPANY
+## Customer Churn Prediction In A Telecommunications Company
 
-## USE CASE
+## Use Case
 
 In this project, we will create a model to predict customer churning (leaving) of a telecommunications company based on the data set containing details like customer demographics, their behaviour, and whether they end up churning. 
 
@@ -27,7 +27,7 @@ from sklearn.metrics import accuracy_score
 
 ```
 
-## DATA SET
+## Data Set
 
 ### Data Description
 The data set down loaded from watson analytics and can be dwonloaded from the belo link.  
@@ -56,7 +56,7 @@ Dataset on customer demographics, their behaviour, and whether or not they end u
 data = pd.read_csv("custchurn.csv")
 ```
 
-## DATA WRANGLING
+## Data Wrangling
 
 
 ```python
@@ -1055,7 +1055,7 @@ data_clean_1.info()
     memory usage: 1.3+ MB
 
 
-## EXPLORATORY DATA ANALYSIS
+## Exploratory Data Analysis
 
 We will drop columns like "customerID", "MonthlyCharges", "TotalCharges", "TotalCharges_num" as it not required for analysis and modeling.
 
@@ -1670,7 +1670,7 @@ final_df.head(3)
 
 ```
 
-## MODELING
+## Modeling
 
 ### Select Target Variable
 
@@ -2064,7 +2064,7 @@ X.info()
     memory usage: 392.1 KB
 
 
-## SPLIT DATA SET FOR TRAING
+## Split Data Set For Traing
 
 
 ```python
@@ -2182,7 +2182,7 @@ plt.show()
 ![png](Customer_Churn_Prediction_files/Customer_Churn_Prediction_86_0.png)
 
 
-## EVALUATION
+## Evaluation
 
 **We used two algorithm to compare their accuracy. We got "76%" accuracy for RandomForest algorithm and '79%' accuracy for LogisticRegression algorithm.**
 

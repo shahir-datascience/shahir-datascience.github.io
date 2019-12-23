@@ -1,14 +1,14 @@
 ---
-title: "Random Forest Classifier"
+title: "Forest Type Classification Project"
 date: 2019-10-01
-tags: [data wrangling, data science, machine learning model]
+tags: [data wrangling, data science, machine learning model, Random Forest Classifier]
 header:
   image:"/images/randomforest/Figure-2-Random-Forest-Predictions.png"
-excerpt: "data wrangling, data science, machine learning model"
+excerpt: "data wrangling, data science, machine learning model, Random Forest Classifier"
 mathjax: "true"
 ---
 
-# Forest Type Classification
+## Random Forest Classifier 
 **Classify forest types based on information about the area**
 
 ## Project Description

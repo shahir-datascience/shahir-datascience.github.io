@@ -1,15 +1,14 @@
 ---
 title: "Mercari Price Suggestion Challenge"
 date: 2018-02-23
-tags: [data wrangling, data science, machine learning model]
-excerpt: "data wrangling, data science, machine learning model"
+tags: [data science, machine learning model, Neural Network]
+excerpt: "data science, machine learning model, Neural Network"
 mathjax: "true"
 ---
-# Mercari Price Suggestion Challenge
 
 ## Neural Network Model using keras
 
-**This project was done for Kaggle competition** (https://www.kaggle.com/c/mercari-price-suggestion-challenge)
+**This project was done for Kaggle competition** [kaggle.com](https://www.kaggle.com/c/mercari-price-suggestion-challenge)
 
 In this competition, Mercari(Japan’s biggest community-powered shopping app) challenging you to build an algorithm that automatically suggests the right product prices. You’ll be provided user-inputted text descriptions of their products, including details like product category name, brand name, and item condition.
 
