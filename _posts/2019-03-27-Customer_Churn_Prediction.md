@@ -1,11 +1,9 @@
-
 ---
 title: "Customer Churn Prediction Project"
 date: 2019-03-27
 tags: [data wrangling, data science, data analysis, machine learning]
 excerpt: "data wrangling, data science, data analysis, machine learning"
 mathjax: "true"
-
 ---
 
 # CUSTOMER CHURN PREDICTION IN A TELECOMMUNICATIONS COMPANY
