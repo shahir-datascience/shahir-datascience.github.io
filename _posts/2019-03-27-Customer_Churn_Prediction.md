@@ -2179,7 +2179,7 @@ plt.show()
 ```
 
 
-![png]("Customer_Churn_Prediction_files/Customer_Churn_Prediction_86_0.PNG")
+![]("Customer_Churn_Prediction_files/Customer_Churn_Prediction_86_0.PNG")
 
 
 ## Evaluation
