@@ -2123,7 +2123,7 @@ plt.show()
 ```
 
 
-![png](Customer_Churn_Prediction_files/Customer_Churn_Prediction_81_0.png)
+![png]("Customer_Churn_Prediction_files/Customer_Churn_Prediction_81_0.png")
 
 
 ## Logitsic Regression Classifier
@@ -2179,7 +2179,7 @@ plt.show()
 ```
 
 
-[png](Customer_Churn_Prediction_files/Customer_Churn_Prediction_86_0.png)
+![png]("Customer_Churn_Prediction_files/Customer_Churn_Prediction_86_0.png")
 
 
 ## Evaluation
