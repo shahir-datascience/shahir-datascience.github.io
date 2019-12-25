@@ -16,7 +16,6 @@ In this project will make a linear model in R language to create predictions usi
 - <p><a href="#4">Using the Model for Estimations/Predictions</a></p>
 <p></p>
 
-</div>
 <hr>
 
 
