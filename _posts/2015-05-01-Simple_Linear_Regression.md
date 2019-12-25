@@ -1,8 +1,8 @@
 ---
-title: "Simple Linear Regression from Scratch"
+title: "Simple Linear Regression from Scratch with Python"
 date: 2015-05-01
-tags: [data science, machine learning, linear regression]
-excerpt: "data science, machine learning, linear regression"
+tags: [data science, machine learning, linear regression, python]
+excerpt: "data science, machine learning, linear regression, python"
 mathjax: "true"
 ---
 
