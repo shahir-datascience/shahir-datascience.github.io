@@ -6,14 +6,10 @@ excerpt: "data science, machine learning, linear regression, R"
 mathjax: "true"
 ---
 
-<h1 align=center><font size = 5>LINEAR REGRESSION</font></h1>
+
 
 In this project will make a linear model in R language to create predictions using our data .
 
-
-<div class="alert alert-block alert-info" style="margin-top: 20px">
-<font size = 4><strong>INDEX: </strong></font>
-<br>
 - <p><a href="#1">Getting to Know the Data</a></p>
 - <p><a href="#2">Visualizing the Data</a></p>
 - <p><a href="#3">Building a Linear Model</a></p>
@@ -30,7 +26,6 @@ In this project will make a linear model in R language to create predictions usi
 Before we start working on a linear model, let's see what the data used in this notebook is about.
 
 <div class="alert alert-success alert-success" style="margin-top: 20px">
-<font size = 3><strong>Sanitation vs Life Expectancy</strong></font>
 <br>
 <br>
 This data corresponds to **the percentage of the population with access to improved sanitation facilities** and **life expectancy (in years)** in 2014 for 183 countries in the world. It was extracted from [The World Bank](http://data.worldbank.org/) website and pre-processed to eliminate NAs and other issues.
@@ -66,7 +61,7 @@ head(my_data)
 
 
 <table>
-<thead><tr><th scope=col>Country</th><th scope=col>Access_to_Sanitation</th><th scope=col>Life_Expectancy</th></tr></thead>
+<thead><tr></tr></thead>
 <tbody>
 	<tr><td>Afghanistan</td><td>31.8       </td><td>60.37446   </td></tr>
 	<tr><td>Albania    </td><td>93.2       </td><td>77.83046   </td></tr>
@@ -117,7 +112,7 @@ Since access to sanitation is likely to affect one's life expectancy, in our lin
 Let's learn how we can run a linear regression model in R!
 
 <div class="alert alert-success alert-success" style="margin-top: 20px">
-<font size = 3><strong>To run linear regression in R we use the function <i>lm()</i>:</strong></font><br>
+To run linear regression in R we use the function <i>lm()</i>:</strong><br>
 <br>
 The first argument of <strong>lm()</strong> has the form <i>"response <strong>~</strong> term"</i>. This is what we call <strong>formula</strong>. <br>
 <br>
@@ -186,7 +181,7 @@ model
 ased on the output, our model was successfully created! Here, you can check the coefficients, the residual error, and some other information as well.
 
 <div class="alert alert-block alert-info" style="margin-top: 20px">
-<font size = 4><strong>Interpreting the model: </strong></font>
+<strong>Interpreting the model: </strong>
 <br><br>
 Take a closer look at **"Residuals"**, in the output above. Residual is the difference between the actual data value and the value predicted by the linear model. It is calculated for every data sample - in our case, 183 countries! As it wouldn't be convenient to visualize 183 residuals, what you see above is a summary containing the **Min**, **1Q**, **Median**, **3Q** and **Max** values.
 <br><br>
@@ -252,7 +247,7 @@ predictionWithInterval
 
 
 <table>
-<thead><tr><th scope=col>fit</th><th scope=col>lwr</th><th scope=col>upr</th></tr></thead>
+<thead><tr></tr></thead>
 <tbody>
 	<tr><td>55.92236</td><td>46.93336</td><td>64.91136</td></tr>
 	<tr><td>63.64124</td><td>54.73514</td><td>72.54735</td></tr>
