@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 ---
 
-I am an aspiring data scientist, experienced with Python, R and SQL programming. 
+I am an aspiring data scientist experienced with Python, R and SQL programming. 
 
 I specialize in machine learning techniques, data wrangling, exploratory analysis and data visualizations. 
 
