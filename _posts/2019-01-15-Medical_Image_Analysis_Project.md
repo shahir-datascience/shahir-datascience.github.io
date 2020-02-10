@@ -5,7 +5,7 @@ tags: [medical image anlysis, medical data science]
 excerpt: "medical image anlysis", "medical data science"
 mathjax: "true"
 ---
-# Head Image Analysis
+## Head Image Analysis
 
 In this programming task, we'll get to work with some sample medical imaging data in the DICOM format and we'll learn how to visualise it and how to do some basic medical image analysis tasks, such as smoothing and segmentation. 
 
