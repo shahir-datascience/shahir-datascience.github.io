@@ -452,14 +452,4 @@ sitk_show(SimpleITK.LabelOverlay(imgSmoothInt, imgLabels2))
 
 And that's it! You've now had a taste of medical image processing!
 
-You're welcome to play around with this code. If you have any questions or comments, please post them in the forums.
 
-
-```python
-
-```
-
-
-```python
-
-```
