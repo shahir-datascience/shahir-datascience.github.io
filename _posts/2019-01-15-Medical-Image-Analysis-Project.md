@@ -5,7 +5,8 @@ tags: [medical image anlysis, medical data science]
 excerpt: "medical image anlysis", "medical data science"
 mathjax: "true"
 ---
-## Head Image Analysis
+
+## Medical Image Analysis Project - MR head image
 
 In this programming task, we'll get to work with some sample medical imaging data in the DICOM format and we'll learn how to visualise it and how to do some basic medical image analysis tasks, such as smoothing and segmentation. 
 
@@ -215,7 +216,7 @@ plt.pcolormesh(x, y, numpy.flipud(HeadImgArray[:, :, 125]))
 
 
 
-![png](2019_01_15_Medical_Image_Analysis_Project_files/2019_01_15_Medical_Image_Analysis_Project_38_1.png)
+![png](2019-01-15-Medical-Image-Analysis-Project_files/2019-01-15-Medical-Image-Analysis-Project_38_1.png)
 
 
 <br>
@@ -281,7 +282,7 @@ sitk_show(imgOriginal)
 ```
 
 
-![png](2019_01_15_Medical_Image_Analysis_Project_files/2019_01_15_Medical_Image_Analysis_Project_51_0.png)
+![png](2019-01-15-Medical-Image-Analysis-Project_files/2019-01-15-Medical-Image-Analysis-Project_51_0.png)
 
 
 ### Smoothing
@@ -307,7 +308,7 @@ sitk_show(imgSmooth)
 ```
 
 
-![png](2019_01_15_Medical_Image_Analysis_Project_files/2019_01_15_Medical_Image_Analysis_Project_56_0.png)
+![png](2019-01-15-Medical-Image-Analysis-Project_files/2019-01-15-Medical-Image-Analysis-Project_56_0.png)
 
 
 ### Segmentation with the ConnectedThreshold filter
@@ -350,7 +351,7 @@ sitk_show(SimpleITK.LabelOverlay(imgSmoothInt, imgWhiteMatter))
 ```
 
 
-![png](2019_01_15_Medical_Image_Analysis_Project_files/2019_01_15_Medical_Image_Analysis_Project_65_0.png)
+![png](2019-01-15-Medical-Image-Analysis-Project_files/2019-01-15-Medical-Image-Analysis-Project_65_0.png)
 
 
 #### Hole-filling of the segmented white matter
@@ -376,7 +377,7 @@ sitk_show(SimpleITK.LabelOverlay(imgSmoothInt, imgWhiteMatterNoHoles))
 ```
 
 
-![png](2019_01_15_Medical_Image_Analysis_Project_files/2019_01_15_Medical_Image_Analysis_Project_70_0.png)
+![png](2019-01-15-Medical-Image-Analysis-Project_files/2019-01-15-Medical-Image-Analysis-Project_70_0.png)
 
 
 #### Segmentation and hole-filling of grey matter
@@ -403,7 +404,7 @@ sitk_show(SimpleITK.LabelOverlay(imgSmoothInt, imgGreyMatterNoHoles))
 ```
 
 
-![png](2019_01_15_Medical_Image_Analysis_Project_files/2019_01_15_Medical_Image_Analysis_Project_73_0.png)
+![png](2019-01-15-Medical-Image-Analysis-Project_files/2019-01-15-Medical-Image-Analysis-Project_73_0.png)
 
 
 #### Combining the white and grey matter
@@ -423,7 +424,7 @@ sitk_show(SimpleITK.LabelOverlay(imgSmoothInt, imgLabels))
 ```
 
 
-![png](2019_01_15_Medical_Image_Analysis_Project_files/2019_01_15_Medical_Image_Analysis_Project_78_0.png)
+![png](2019-01-15-Medical-Image-Analysis-Project_files/2019-01-15-Medical-Image-Analysis-Project_78_0.png)
 
 
 Note that the cyan-coloured label are regions where both the white matter and grey matter overlap from the initial segmentation process above.  
@@ -446,7 +447,7 @@ sitk_show(SimpleITK.LabelOverlay(imgSmoothInt, imgLabels2))
 ```
 
 
-![png](2019_01_15_Medical_Image_Analysis_Project_files/2019_01_15_Medical_Image_Analysis_Project_82_0.png)
+![png](2019-01-15-Medical-Image-Analysis-Project_files/2019-01-15-Medical-Image-Analysis-Project_82_0.png)
 
 
 And that's it! You've now had a taste of medical image processing!
